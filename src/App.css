@@ -2,37 +2,67 @@
   text-align: center;
 }
 
+.container {
+  background-color: gray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: lightgray;
+  border-radius: 5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-color: black;
+  border-width: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-color: black;
+  border-color: black;
+  border-width: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  background-color: transparent;
+}
+
+.search-bar button[type="submit"] {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-style {
+  color: #999;
+  font-size: 1.5em;
+}
+
+.icon-style:hover {
+  color: #000;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #999;
 }
