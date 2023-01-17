@@ -1,3 +1,23 @@
+# Questions:
+
+1. What is the URL to your GitHub-Pages site?
+https://github.com/sidv2003-2161377/cfa-app
+
+2. What API did you use and why?
+Free NBA Players, this is because I enjoy watching the NBA and just thought it was something I have not seen too much of in terms of making a project
+
+3. What are some other applications for your API other than searching? Name a few and describe how an app using it for that purpose might work.
+Well the application can be used to search for the players but also provides information about them such as the team they belong(ed) to, the position they play(ed) in and so, along with filters to filter by position and/or teams. An application using this website can quickly get this information in order to create reports about it and even fetch the player if their stats are recorded on the app to display the player and the statistics. 
+
+4. Explain the considerations you needed to make for the website to be responsive & mobile-friendly.
+To make it mobile friendly, I made it so that the website can adjust according to the screen size of the device. To make it responsive, it was important ensuring that the website updated live as soon as a search was performed.
+
+5. How can you make your app accessible to people with disabilities such as blindness or colorblindness?
+I can make the app using neutral colors (which I did, since it is in grayscale) to help ensure color-blind people are not experiencing it differently. I can also implement a text-to-voice feature in the future to deal with disabilities like blindness. 
+
+6. If you could make further changes to your project to improve/expand the experience, what would they be and how would you go about implementing them?
+I would link another API with it to provide statistics, along with adding photos and making it more informative than just using a single API to provide more information about the players themselves. I would also make it look a lot fancier than just the simple search bar and tabular format to make it seem more user-friendly.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
